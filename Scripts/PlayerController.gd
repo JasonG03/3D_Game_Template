@@ -2,11 +2,11 @@ extends KinematicBody
 
 # controller variables, add export to the front to expose to editor
 # like: export speed = 7
-var speed = 7
+export var speed = 10
 var default_speed = speed
-var mouse_sensitivity = 0.1
-var gravity = 9.8
-var jump = 5
+var mouse_sensitivity = .3
+var gravity = 30
+var jump = 15
 var cam_accel = 40
 
 # sprinting stuff, can export as well
